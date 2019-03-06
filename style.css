@@ -2,9 +2,12 @@ body {
   font-family: sans-serif;
 }
 h1 {
+  border-style: dashed;
   color: #008000;
   background-color: #888888;
   text-transform: uppercase;
+  margin: 40px
+  padding: 60px
 }
 
 h2 {
