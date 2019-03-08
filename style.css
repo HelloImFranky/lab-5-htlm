@@ -1,23 +1,32 @@
+#intro {
+  border: 1px;
+  background-color: black;
+}
+
+.spotlight {
+  background-color: #FEFE22;
+
+}
 body {
   font-family: sans-serif;
 }
 h1 {
-  border-style: dashed;
   color: #008000;
   background-color: #888888;
   text-transform: uppercase;
-  margin: 40px
-  padding: 60px
+  margin: 20px;
+  padding: 40px;
+  border-style: dashed;
+  border-width: inherit 5px
 }
 
-h2 {
-  background-color: #888888;
+h2, p.first {
+  background-color: #006400;
   text-decoration: underline;
 
 }
 
-p {
-    color: #0000FF;
+p.first {
     font-size: 12px;
     text-decoration: line-through;
 }
